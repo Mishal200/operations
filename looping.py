@@ -9,7 +9,8 @@
 # word="MISHAL" 
 
 # for letter in word:
-   #  print(word)
+  
+     # print(letter)
     
 # //////////////////////while loop//////////////////////////
 
@@ -83,24 +84,24 @@
 
 
 
-text = "banana"
-print(text.count("a"))
+# text = "banana"
+# print(text.count("a"))
 
 
-text = "Python programming"
+# text = "Python programming"
 
-print(text.startswith("Python"))
+# print(text.startswith("Python"))
 
-text = "report.pdf"
+# text = "report.pdf"
 
-print(text.endswith(".pdf"))
+# print(text.endswith(".pdf"))
 
-text = "Python"
-print(text.isalpha())
+# text = "Python"
+# print(text.isalpha())
 
-text = "Python123"
-print(text.isalpha())
+# text = "Python123"
+# print(text.isalpha())
 
 
-num = "12345"
-print(num.isdigit())
+# num = "12345"
+# print(num.isdigit())
