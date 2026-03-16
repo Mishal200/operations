@@ -255,3 +255,127 @@ if sorted(s1) == sorted(s2):
     print("Anagram")
 else:
     print("Not Anagram")
+    
+#21
+n = 10
+a = 0
+b = 1
+for i in range(n):
+    print(a, end=" ")
+    a, b = b, a + b
+
+#22 
+arr = [1, 2, 4, 5]
+n = 5
+missing = n*(n+1)//2 - sum(arr)
+print(missing)
+
+#23
+num = 1234
+s = 0
+for i in str(num):
+    s += int(i)
+print(s)
+
+#24
+num = 12345
+print(len(num))
+
+#25
+n = 5
+for i in range(1, n+1):
+    print("*"*i)
+
+#26
+year = 2024
+if year % 4 == 0:
+    print("Leap Year")
+else:
+    print("Not Leap Year")
+
+#27
+arr = [1,0,2,0,3]
+for i in arr:
+    if i != 0:
+        print(i, end=" ")
+for i in arr:
+    if i == 0:
+        print(i, end=" ")
+
+#28
+arr = [5,2,8,1]
+print(min(arr))
+
+#29
+num = 153
+s = 0
+for i in str(num):
+    s += int(i)**3
+if s == num:
+    print("Armstrong")
+else:
+    print("Not Armstrong")
+
+#30
+arr = [1,2,3,4,5]
+k = 2
+print(arr[k:] + arr[:k])
+
+#31
+arr = [1,2,3,2,4,1]
+for i in arr:
+    if arr.count(i) > 1:
+        print(i)
+
+#32
+a = [1,3,5]
+b = [2,4,6]
+print(sorted(a + b))
+
+#33
+s = "python is very powerful"
+words = s.split()
+print(max(words, key=len))
+
+#34
+s = "hello world"
+print(s.replace(" ",""))
+
+#35
+s = "hello"
+vowels = "aeiou"
+for i in s:
+    if i in vowels:
+        print("*", end="")
+    else:
+        print(i, end="")
+
+#36
+s = "HelloWorld"
+u = 0
+l = 0
+for i in s:
+    if i.isupper():
+        u += 1
+    if i.islower():
+        l += 1
+print("Upper:",u)
+print("Lower:",l)
+
+#37
+a = "apple"
+b = "grape"
+for i in a:
+    if i in b:
+        print(i)
+
+#38
+arr = [1,2,3,4]
+print(arr[::-1])
+
+#39
+arr = [1,2,3,4]
+if arr == sorted(arr):
+    print("Sorted")
+else:
+    print("Not Sorted")
